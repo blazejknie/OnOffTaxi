@@ -1,0 +1,72 @@
+<custom-style>
+    <style>
+        .dialog-button {
+            color: #ffe100;
+            background-color: black;
+            border-radius: 0;
+            font-size: 0.9em;
+            cursor: pointer;
+            width: 200px;
+            font-family: 'League Spartan Bold', arial, serif;
+        }
+
+        .exparing-token-label {
+            font-weight: bold;
+            font-size: 0.9em;
+            text-align: center;
+            font-family: 'League Spartan Bold', arial, serif;
+            word-wrap: break-spaces;
+            height: 40px;
+            width: 200px;
+            color: black;
+        }
+    </style>
+</custom-style>
+
+<dom-module id="my-dialog-customizations" theme-for="vaadin-dialog-overlay">
+    <template>
+        <style>
+            :host([theme~="custom-dialog"]) [part="overlay"] {
+                border-radius: 0;
+                background-color: #F2F6FA;
+            }
+
+            :host([theme~="custom-dialog"]) [part="drop-label"] {
+                color: black;
+            }
+        </style>
+    </template>
+</dom-module>
+
+<dom-module id="password-field-style" theme-for="vaadin-password-field">
+    <template>
+        <style>
+
+            :host(.dialog-passwordfields) [part="input-field"] {
+                color: black;
+                font-size: 0.9em;
+                border-radius: 0;
+                height: 40px;
+                width: 200px;
+            }
+        </style>
+    </template>
+</dom-module>
+<dom-module id="text-fields-style" theme-for="vaadin-text-field vaadin-text-area">
+    <template>
+        <style>
+
+            :host(.dialog-textfields) [part="label"]{
+                color: black;
+            }
+
+            :host(.dialog-textfields) [part="input-field"] {
+                color: black;
+                font-size: 0.8em;
+                border-radius: 0;
+                height: 40px;
+                width: 200px;
+            }
+        </style>
+    </template>
+</dom-module>

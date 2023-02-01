@@ -1,0 +1,88 @@
+html {
+    background-image: linear-gradient(black, black, black, black, black, black, #ffe100);
+}
+
+.login-view {
+    color: white;
+    margin: auto;
+    height: 350px;
+    width: 350px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+}
+.login-view-blocked{
+    color: white;
+    margin: auto;
+    height: 350px;
+    width: 350px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+    filter: blur(10px);
+}
+
+.logoanch {
+    font-family: 'League Spartan Bold', arial, serif;
+    font-weight: bold;
+    color: #ffe100;
+    font-size: 65px;
+    text-decoration: none;
+}
+
+.logoanch:hover {
+    text-decoration: none;
+}
+
+.login-button {
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ffe100;
+    color: black;
+    border-radius: 15px;
+}
+.forgotAnchDiv{
+    margin-left: auto;
+}
+
+.login-logo {
+    margin-top: 3em;
+    cursor: pointer;
+}
+.register-butAnch{
+    background: none!important;
+    border: none;
+    margin: 0;
+    padding: 0!important;
+    /*optional*/
+    font-family: 'League Spartan Bold', arial, serif;
+    /*input has OS specific font-family*/
+    color: royalblue;
+    bottom: 5px;
+    left: 15px;
+}
+
+.register-butAnch:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    background: none!important;
+    border: none;
+}
+@media (max-width: 600px) {
+    .logoanch {
+        font-family: 'League Spartan Bold', arial, serif;
+        font-weight: bold;
+        color: #ffe100;
+        font-size: 55px;
+        text-decoration: none;
+    }
+
+    .logoanch:hover {
+        text-decoration: none;
+    }
+}

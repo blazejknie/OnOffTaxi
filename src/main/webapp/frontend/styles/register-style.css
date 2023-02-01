@@ -1,0 +1,60 @@
+html {
+    background-image: linear-gradient(black, black, black, black, black, black, #ffe100);
+    min-height: 100%;
+}
+body{
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.register-layout{
+    color: white;
+    margin: 20px auto 0 auto;
+    width: 350px;
+    border-radius: 5px;
+}
+
+.register-labels{
+    font-family: 'League Spartan Bold', arial, serif;
+    font-weight: bold;
+    padding-bottom: 0;
+    color: #ffe100;
+    margin-left: auto;
+    padding-right: 25px;
+    margin-right: auto;
+    margin-bottom: 0;
+}
+.navigate-buttons-div{
+    width: 300px;
+    margin: 10px auto;
+}
+.register-back-button {
+    cursor: pointer;
+    background-color: #ffe100;
+    color: black;
+    border-radius: 0;
+    width: 130px;
+    margin-right: 10px;
+}
+
+.register-next-button{
+    cursor: pointer;
+    background-color: #ffe100;
+    color: black;
+    border-radius: 0;
+    width: 130px;
+    margin-left: 10px;
+}
+
+.register-next-button-disabled{
+    cursor: crosshair;
+    border: 2px solid #ffe100;
+    font-size: 0.9em;
+    background-color: black;
+    color: #ffe100;
+    border-radius: 0;
+    width: 130px;
+    margin-left: 10px;
+}

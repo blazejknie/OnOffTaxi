@@ -1,0 +1,1679 @@
+<custom-style>
+    <style>
+
+        html {
+            color: black;
+            background-color: black;
+            /*          overflow-x: hidden;*/
+            --lumo-secondary-text-color: white;
+            font-family: 'League Spartan Bold', arial, serif;
+            background-image: linear-gradient(black, black, black, black, black, black, #ffe100);
+
+        }
+
+        body, html { overflow-x:hidden; }
+        .page {
+            padding: 0;
+        }
+
+        .main-layout {
+            color: white;
+            width: 100%;
+            max-width: 1200px;
+            min-height: 100%;
+            padding-top: 10px;
+            background-color: black;
+            margin-left: auto;
+            background-color: transparent;
+
+            margin-right: auto;
+
+        }
+
+        /*******************************************NAVIGATION BAR**************************************************/
+
+        .main-logo {
+            margin: auto;
+            cursor: pointer;
+            max-height: 150px;
+        }
+
+        .logo {
+            margin-top: 25px;
+            margin-left: 55px;
+            margin-right: 45px;
+            width: 250px;
+            min-width: 200px;
+            height: 100px;
+            cursor: pointer;
+            float: left;
+        }
+
+        .top-div {
+            width: 100% !important;
+            height: 150px;
+            max-width: 1600px;
+            min-height: 80px;
+            padding: 2px 0;
+            background-color: black;
+            position: sticky;
+            top: 0;
+            z-index: 2;
+        }
+
+        .top-div-logged {
+           font-size: 20px;
+
+            /* !*min-width: 330px;*!
+            !*max-width: 1600px;*!*/
+            margin-top: 25px;
+            margin-left: 55px;
+            width: 300px;
+            min-width: 200px;
+            height: 100px;
+            cursor: pointer;
+            float: left;
+            text-align: center;
+        }
+
+        .logged-buttons {
+            float: right;
+            font-size: 20px;
+            padding-top: 20px;
+            height: 150px;
+            width: 280px;
+            top: 50px;
+            overflow:hidden;
+        }
+
+        .lr-buttons {
+            color: black;
+            background-color: #ffe100;
+            width: 200px;
+            cursor: pointer;
+            border-radius: 0;
+        }
+
+        .lrButtonsDiv {
+           /* margin-left: 30%;*/
+        }
+
+        .driver_info {
+            text-align: center;
+            color: #ffe100;
+            font-weight: bold;
+            font-size: 20px;
+            width: 300px;
+            height: 60px;
+            background-color: black;
+        }
+
+        .radio-buttons {
+            padding-left: 30px;
+            color: #ffe100;
+            z-index: 2;
+        }
+        .hlayout {
+                background-color: black;
+                }
+
+        @media (min-width: 400px) and (max-width: 960px) {
+            .logo {
+                display: none;
+                position: absolute;
+            }
+
+        }
+
+        /*******************************************END NAVIGATION BAR**********************************************/
+
+        .promo-field {
+            width: 100%;
+            background-color: black;
+            height: 15vw;
+            max-width: 1600px;
+            max-height: 180px;
+            cursor: pointer;
+        }
+
+        .location-refresh-hlayout {
+            width: 100%;
+            height: 40px;
+            max-width: 1600px;
+            text-align: center;
+            float: left;
+        }
+
+        #mainButtons{
+            float: right;
+        }
+
+        .actionLocationButton {
+            cursor: pointer;
+            margin-top: auto;
+            background-color: #ffe100;
+            color: #000000;
+            width: 100px;
+            border-radius: 0;/*
+            margin-left: auto;*/
+            border-left: 1px solid black;
+        }
+
+        .buttons {
+            cursor: pointer;
+            border-radius: 0;
+            width: 200px;
+            background-color: #F2F6FA;
+            color: black;
+        }
+
+        .buttons:after {
+        }
+
+
+        .image-status-div {
+            display: table-cell;
+            vertical-align: middle;
+        }
+
+        .driver-status-button-on {
+            width: 110px;
+            height: 30px;
+            font-size: 20px;
+            color: white;
+            background-color: #62C637;
+        }
+
+        .driver-status-button-off {
+            width: 110px;
+            height: 30px;
+            font-size: 20px;
+            color: white;
+            background-color: red;
+        }
+
+        .driver-status-button-busy {
+            width: 110px;
+            height: 30px;
+            font-size: 20px;
+            color: white;
+            background-color: #FFA550;
+        }
+
+        .main-call-button-busy {
+            background-color: #FFA500;
+            color: white;
+            border-radius: 100%;
+            font-size: 30px;
+            /*padding: 20px;*/
+            width: 150px;
+            height: 150px;
+            cursor: pointer;
+        }
+
+        .main-call-button-disabled {
+            background-color: red;
+            color: white;
+            border-radius: 100%;
+            font-size: 30px;
+            /*padding: 20px;*/
+            width: 150px;
+            height: 150px;
+        }
+
+        .driver-localization {
+            color: #fff100;
+        }
+
+        .refresh-button {
+            cursor: pointer;/*
+            margin-top: auto;
+            margin-left: auto;*/
+            background-color: #ffe100;
+            color: #000000;
+            border-radius: 0;
+            border-left: solid 1px black;
+        }
+
+
+
+        .driver-div {
+            color: white;
+            width: 100vw;
+            max-width: 1200px;
+            word-wrap: break-word;
+            border-top: 2px solid #333333;
+            border-bottom: 2px solid #333333;
+
+            background-color: black;
+        }
+
+        @keyframes text-grow {
+            0% {
+                color: white;
+            }
+            100% {
+                color: lightgoldenrodyellow;
+            }
+
+        }
+
+        .main-call-button {
+            color: white;
+            background-color: #62C637;
+            border-radius: 100%;
+            font-size: 30px;
+            /*padding: 20px;*/
+            width: 150px;
+            height: 150px;
+            cursor: pointer;
+        }
+
+
+        .servicesLayout {
+            display: table-cell;
+            vertical-align: middle;
+            position: static;
+            margin-left: auto;
+            padding-left: 0;
+            padding-right: 0;
+        }
+
+        .driver-name {
+            color: #ffe100;
+            max-width: 450px;
+        }
+
+        .phone-dialog-layout {
+            font-size: 22px;
+            font-weight: bold;
+            border-radius: 0;
+            height: 250px;
+            min-width: 400px;
+            max-width: 450px;
+        }
+
+
+        .call-button iron-icon {
+            color: white;
+            background-color: #62C637;
+            border-radius: 100%;
+            padding: 20px;
+            width: 50px;
+            height: 50px;
+            cursor: pointer;
+            margin-bottom: 5px;
+        }
+
+        .contact-button {
+            min-height: 100%;
+            width: 20%;
+            font-size: 14.5px;
+            color: black;
+            cursor: pointer;
+        }
+
+        .botom-div {
+            text-align: center;
+            width: 100%;
+            max-width: 1600px;
+            color: white;
+            top: 0;
+        }
+
+
+        .number-label {
+            margin-left: auto;
+            color: white;
+            width: 250px;
+        }
+
+        .driver-image {
+            width: 100%;
+            height: 100%;
+            max-height: 150px;
+            min-height: 150px;
+            max-width: 150px;
+            min-width: 150px;
+            border-radius: 1000px;
+        }
+
+        .driver-description {
+            max-width: 400px;
+            min-width: 400px;
+            word-wrap: break-word;
+        }
+
+        .cookies-bar {
+            position: fixed;
+            margin-top: auto;
+            margin-left: auto;
+            bottom: 0;
+            width: 100%;
+            max-width: 1200px;
+            color: white;
+            display: inline-block;
+            text-align: center;
+            background: rgba(0, 0, 0, 0.7);
+            z-index: 2;
+        }
+
+        .cookies-button {
+            cursor: pointer;
+            color: royalblue;
+            background-color: #fff100;
+        }
+
+        .vaadin-button-container {
+            width: 24px;
+        }
+
+        /*///////////////////////////////////////////////////////////////////////////////////////////accountView*/
+        .imageLayout {
+            margin-top: 50px;
+            width: 100%;
+            text-align: center;
+            display: inline-block;
+            margin-right: auto;
+            margin-left: auto;
+        }
+
+        .imageLayoutbutton {
+            width: 100%;
+            text-align: center;
+            display: inline-block;
+            margin-right: auto;
+            margin-left: auto;
+            cursor: pointer;
+        }
+
+        .account-view {
+            margin-top: 10px;
+            width: 100%;
+            margin-right: auto;
+            margin-left: auto;
+
+            padding-right: 200px;
+            padding-left: 150px;
+            border-radius: 15px;
+            color: #62C637;
+            background-color: black;
+        }
+
+        .account-view-content {
+            width: 50%;
+        }
+
+        .show-hide-buttons {
+            font-size: 1em;
+            color: #F5DA07;
+        }
+
+
+        .horizontal-full {
+            width: 100%;
+        }
+
+        .buttons-layout {
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .main-dialog {
+            font-size: 1em;
+        }
+
+        .dialog-logo {
+            display: flex;
+            position: center;
+            width: 300px;
+            height: 100px;
+        }
+
+        .dialog-footer {
+            width: 100%;
+        }
+
+        .footer-button {
+            min-height: 100%;
+            width: 33%;
+            font-size: 1em;
+            border-radius: 0;
+            color: white;
+            background-color: royalblue;
+            cursor: pointer;
+        }
+
+        .accept-button {
+            min-height: 100%;
+            width: 50%;
+            font-size: 1em;
+            border-radius: 0;
+            color: white;
+            background-color: royalblue;
+            cursor: pointer;
+        }
+
+        /*///////////////////////////////////////////////////////////////////////////////////////////accountView*/
+
+    </style>
+</custom-style>
+
+<dom-module id="text-fields-style" theme-for="vaadin-text-field vaadin-text-area">
+    <template>
+        <style>
+            :host(:hover:not([readonly]):not([focused])) [part="label"] {
+                color: white;
+            }
+
+            :host(.driver-description-field:hover:not([readonly])) [part="label"] {
+                color: white;
+            }
+
+            :host(.driver-description-field:hover:not([readonly]):not([focused])) [part="input-field"] {
+                background-color: #333333;
+            }
+
+            :host([focused]:not([readonly])) [part="label"] {
+                color: white;
+            }
+
+            :host(.driver-description-field) [part="input-field"] {
+                border-radius: 0;
+                width: 850px;
+                color: #62C637;
+                background-color: #333333;
+            }
+
+            :host(.short-name-textfield) [part="label"] {
+                margin-left: 292px;
+                color: #62C637;
+            }
+
+            :host(.short-name-textfield) [part="input-field"] {
+                margin-left: 292px;
+                border-radius: 0;
+                width: 400px;
+                color: #62C637;
+                background-color: #333333;
+            }
+
+            :host(.textfields) {
+                width: 400px;
+            }
+
+            :host(.textfields) [part="label"] {
+                color: white;
+            }
+
+            :host(.photo-textfields) {
+                width: 100%;
+                color: black;
+            }
+
+            :host(.photo-textfields) [part="label"] {
+                color: black;
+            }
+
+            :host(.photo-textfields:hover:not([readonly])) [part="label"] {
+                color: black;
+            }
+
+            :host(.textfields) [part="input-field"] {
+                border-radius: 0;
+                width: 100%;
+                height: 50px;
+                color: #62C637;
+                background-color: #333333;
+            }
+
+            :host([aria-disabled])[part="input-field"] {
+                color: white;
+                background-color: #333333;
+            }
+
+            :host([disabled]) [part="label"], :host([disabled]) [part="value"], :host([disabled]) [part="input-field"] ::slotted(*) {
+                -webkit-text-fill-color: white;
+            }
+
+            :host(.login-fields) {
+                height: 40px;
+            }
+
+            :host(.login-fields) [part="label"] {
+                margin: auto;
+                color: #62C637;
+            }
+
+            :host(.login-fields) [part="input-field"] {
+                background-color: white;
+                border-radius: 0;
+            }
+
+            :host(.login-fields:hover) [part="input-field"] {
+                background-color: white;
+            }
+
+            :host(.register-labels) {
+                color: #ffe100;
+                --lumo-primary-text-color: #ffe100;
+                width: 20%;
+                text-align: center;
+                padding-top: 0;
+                padding-bottom: 0;
+                margin: 0 auto;
+                word-wrap: break-spaces;
+            }
+
+            :host(.register-fields) {
+                height: 25%;
+                width: 300px;
+            }
+
+            :host(.register-fields) [part="label"] {
+                margin: auto;
+                color: white;
+            }
+
+            :host(.register-fields) [part="input-field"] {
+                background-color: white;
+                border-radius: 0;
+            }
+
+            :host(.register-fields:hover) [part="input-field"] {
+                background-color: white;
+            }
+
+            @media (max-width: 400px) {
+
+                :host(.short-name-textfield) [part="label"] {
+                    color: #62C637;
+                }
+
+                :host(.short-name-textfield) [part="input-field"] {
+                    border-radius: 0;
+                    width: 45%;
+                    color: #62C637;
+                    background-color: #333333;
+                }
+
+                :host(.register-labels) {
+                    margin: 0 auto;
+                    color: #ffe100;
+                    --lumo-primary-text-color: #ffe100;
+                    width: 250px;
+                    text-align: center;
+                    word-wrap: break-spaces;
+                }
+
+                :host(.textfields) [part="label"] {
+                    color: #62C637;
+                    font-size: 10px;
+                }
+
+
+                :host(.textfields) [part="input-field"] {
+                    color: #ffe100;
+                    background-color: #333333;
+                    border-radius: 0;
+                    height: 40px;
+                    font-size: 12px;
+                    width: 150px;
+                }
+
+                :host(.driver-description-field) [part="label"] {
+                    color: #62C637;
+                    width: 100vw;
+                }
+
+                :host(.driver-description-field) [part="input-field"] {
+
+                    margin-right: auto;
+                    margin-left: auto;
+                    padding: 5px;
+                    border-radius: 0;
+                    width: 100vw;
+                    /*
+                                        min-width: 300px;
+                                        max-width: 360px;*/
+                    color: #62C637;
+                    background-color: #333333;
+                }
+
+                :host(.short-name-textfield) [part="label"] {
+                    margin-left: 292px;
+                    color: #62C637;
+                }
+
+                :host(.short-name-textfield) [part="input-field"] {
+                    margin-left: 292px;
+                    border-radius: 0;
+                    width: 400px;
+                    color: #62C637;
+                    background-color: #333333;
+                }
+
+            }
+
+            @media (min-width: 400px) and (max-width: 903px) {
+                :host(.textfields) [part="input-field"] {
+                    height: 30px;
+                    font-size: 12px;
+                    margin-right: 0;
+                    width: 220px;
+                    border-radius: 0;
+                }
+
+                :host(.driver-description-field) [part="input-field"] {
+
+                    margin-right: auto;
+                    margin-left: auto;
+                    padding: 5px;
+                    border-radius: 0;
+                    width: 100vw;
+                    /*
+                                        min-width: 300px;
+                                        max-width: 360px;*/
+                    color: #62C637;
+                    background-color: #333333;
+                }
+
+            }
+
+            @media (max-width: 320px) {
+
+                :host(.textfields) [part="input-field"] {
+                    height: 30px;
+                    font-size: 10px;
+                    margin-right: 0;
+                    width: 120px;
+                    border-radius: 0;
+                }
+            }
+
+        </style>
+    </template>
+</dom-module>
+
+<dom-module id="checkbox-style" theme-for="vaadin-checkbox">
+    <template>
+        <style>
+            :host(.register-checkbox) [part="checkbox"] {
+                border: 1px yellow solid;
+                border-radius: 0;
+                --lumo-primary-color: #ffe100;
+                --lumo-primary-contrast-color: black;
+            }
+        </style>
+    </template>
+</dom-module>
+<dom-module id="layout-style" theme-for="vaadin-vertical-layout">
+    <template>
+        <style>
+            :host(.register-checkbox-layout) {
+                margin-left: auto;
+                margin-right: 0;
+                color: white;
+                font-size: 0.6em;
+                width: 100%;
+            }
+        </style>
+    </template>
+</dom-module>
+
+<dom-module id="lumo-radio-button" theme-for="vaadin-radio-button">
+    <template>
+        <style>
+            :host {
+                -webkit-tap-highlight-color: white;
+                -webkit-user-select: none;
+                -moz-user-select: none;
+                -ms-user-select: none;
+                user-select: none;
+                cursor: pointer;
+                outline: none;
+            }
+
+            [part="label"]:not([empty]) {
+                font-weight: bold;
+                margin: 0.1875em 0.875em 0.1875em 0.375em;
+            }
+
+            [part="radio"] {
+                width: calc(1em + 2px);
+                height: calc(1em + 2px);
+                margin: 0.1875em;
+                position: relative;
+                border-radius: 50%;
+                background-color: white;
+                transition: transform 0.2s cubic-bezier(.12, .32, .54, 2), background-color 0.15s;
+                pointer-events: none;
+                will-change: transform;
+                line-height: 1.2;
+                transform: translateZ(0); /* Workaround IE11 jumpiness */
+            }
+
+            /* Used for activation "halo" */
+            [part="radio"]::before {
+                /* Needed to align the radio-button nicely on the baseline */
+                content: "\2003";
+                color: transparent;
+                display: inline-block;
+                width: 100%;
+                height: 100%;
+                border-radius: inherit;
+                background-color: black;
+                transform: scale(1.4);
+                opacity: 0;
+                transition: transform 0.1s, opacity 0.8s;
+                will-change: transform, opacity;
+            }
+
+            /* Used for the dot */
+            [part="radio"]::after {
+                content: "";
+                width: 0;
+                height: 0;
+                border: 5px solid black;
+                border-radius: 50%;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%) scale(0);
+                transition: 0.25s transform;
+                will-change: transform;
+                background-clip: content-box;
+            }
+
+            :host([checked]) [part="radio"] {
+                background-color: #ffe100;
+            }
+
+            :host([checked]) [part="radio"]::after {
+                transform: translate(-50%, -50%) scale(1);
+            }
+
+            :host(:not([checked]):not([indeterminate]):not([disabled]):hover) [part="radio"] {
+                background-color: white;
+            }
+
+            :host([active]) [part="radio"] {
+                transform: scale(0.9);
+                transition-duration: 0.05s;
+            }
+
+            :host([active][checked]) [part="radio"] {
+                transform: scale(1.1);
+            }
+
+            :host([active]:not([checked])) [part="radio"]::before {
+                transition-duration: 0.01s, 0.01s;
+                transform: scale(0);
+                opacity: 0.4;
+            }
+
+        </style>
+    </template>
+</dom-module>
+///////////////////////////////////////////////////////////////////////////////////////drivers-media-styles
+<custom-style>
+    <style>
+        /***medium-size***/
+        @media (max-width: 400px) {
+
+            .logged-buttons {
+                position: absolute;
+                right: -140px;
+                top: 0;
+                font-size: 20px;
+                padding-left: 0px;
+            }
+
+            .driver-div {
+                max-width: 100%;
+                color: white;
+                width: 100vw;
+                height: 120px;
+                font-size: 9px;
+                word-wrap: break-spaces;
+                margin-bottom: 10px;
+                border-top: none;
+                border-bottom: none;
+            }
+
+
+
+
+            .number-label {
+                margin-left: 5px;
+                margin-top: 5px;
+                width: 70px;
+                font-size: 13px;
+            }
+
+            .image-status-div {
+                padding: 20px 0 0 0;
+                margin: 0 10px 0 0;
+                width: 100px;
+                display: table-cell;
+                vertical-align: middle;
+            }
+
+            .main-driver-info {
+                padding: 2px 0;
+                margin: 0;
+                width: 111px;
+                min-height: 100px;
+                display: table-cell;
+                vertical-align: middle;
+
+                position: relative;
+            }
+
+
+            .driver-description {
+                min-height: 100px;
+                overflow: hidden;
+                width: 100%;
+                text-overflow: ellipsis;
+                word-wrap: break-word;
+            }
+
+            .driver-image {
+                top: 0;
+                margin-top: 0;
+                margin-bottom: 0;
+                margin-left: 25px;
+                width: 70px;
+                height: 70px;
+                max-height: 70px;
+                min-height: 70px;
+                max-width: 70px;
+                min-width: 70px;
+                border-radius: 1000px;
+            }
+
+            .driver-status {
+                margin-left: 25px;
+                padding: 0;
+            }
+
+            .driver-name {
+                font-size: 12px;
+                margin-top: 0;
+                margin-bottom: 0;
+                width: 180px;
+                max-width: 350px;
+            }
+
+            .main-call-button, .main-call-button-busy, .main-call-button-disabled {
+                color: white;
+                background-color: #62C637;
+                border-radius: 100%;
+                font-size: 30px;
+                float: left;
+                /*padding: 20px;*/
+                width: 70px;
+                height: 70px;
+                cursor: pointer;
+                margin-left: 0;
+                z-index: 0;
+            }
+
+            .main-call-button-busy {
+                background-color: #FFA500;
+            }
+
+            .main-call-button-disabled {
+                background-color: red;
+                cursor: none;
+            }
+
+            .phone-dialog-layout {
+                font-size: 12px;
+                font-weight: bold;
+                height: 130px;
+                padding: 0;
+                min-width: 200px;
+                max-width: 200px;
+            }
+
+            .call-button iron-icon {
+                max-height: 20px;
+                min-height: 20px;
+                max-width: 20px;
+                min-width: 20px;
+                font-size: 12px;
+                border-radius: 1000px;
+                /*
+                                margin-bottom: 15px;*/
+
+            }
+
+            .driver-status-button-on {
+                padding: 0;
+                margin: 0;
+                width: 30px;
+                height: 20px;
+                color: white;
+                font-size: 10px;
+                background-color: #29ad52;
+                border-radius: 0;
+            }
+
+            .driver-status-button-off {
+                padding: 0;
+                margin: 0;
+                width: 30px;
+                height: 20px;
+                color: white;
+                font-size: 10px;
+                background-color: red;
+                border-radius: 0;
+            }
+
+            .driver-status-button-busy {
+                padding: 0;
+                margin: 0;
+                width: 30px;
+                height: 20px;
+                color: white;
+                font-size: 10px;
+                background-color: #FFA500;
+                border-radius: 0;
+            }
+        }
+
+    </style>
+</custom-style>
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+
+<custom-style>
+    <style>
+
+        /***medium-size***/
+        @media (max-width: 400px) {
+
+            .page {
+                width: 100%;
+                padding: 0;
+            }
+
+            .top-div {
+                float: left;
+                margin-top: 5px;
+                padding: 0;
+                position: sticky;
+                min-height: 60px;
+                height: 40%;
+                width: 100vw;
+                background-color: black;
+                z-index: 2;
+            }
+
+            .top-div-logged {
+
+                padding-top: 20px;
+                float: left;
+                min-height: 150px;
+                font-size: 13px;
+                height: 80px;
+                margin: 0;
+                min-width: 150px;
+                /*max-width: 330px;*/
+                width: 100vw;
+
+            }
+
+            .radio-buttons {
+                margin-top: 2px;
+                width: 250px;
+                min-width: 250px;
+                margin-left: 5vw;
+                color: #ffe100;
+            }
+
+            .logo {
+                display: none;
+                position: absolute;
+            }
+
+
+            .driver_info {
+                margin-left: 0px;
+                padding-top: 0px;
+                text-align: center;
+                color: #edee56;
+                font-weight: bold;
+                font-size: 18px;
+                width: 150px;
+                height: 90px;
+
+            }
+
+            .main-logo {
+                margin-top: auto;
+                margin-bottom: auto;
+                margin-left: 50px;
+                width: 130px;
+                height: 50px;
+                cursor: pointer;
+            }
+
+            .lr-buttons {
+                margin-top: 10px;
+                cursor: pointer;
+                font-size: 13px;
+                height: 25px;
+                width: 120px;
+            }
+
+            .show-hide-buttons {
+                font-size: 11px;
+                color: #F5DA07;
+                width: 160px;
+                border-radius: 0;
+                border-bottom: 1px solid #F5DA07;
+            }
+
+            .lrButtonsDiv {
+                margin-left: auto;
+                margin-right: 40px;
+                padding: 0 auto;
+                width: 120px;
+                height: 100px;
+
+            }
+
+            .servicesLayout {
+                width: 80px;
+                padding-top: 16px;
+                padding-bottom: 0;
+                margin-left: 4px;
+            }
+
+            .driver-localization {
+                margin: 5px 0 0;
+                width: 180px;
+                font-size: 10px;
+                color: #fff100;
+
+                top: 86px;
+                position: absolute;
+                bottom: 0;
+            }
+
+            .hlayout {
+                background-color: black;
+                padding: 0;
+            }
+
+            .location-refresh-hlayout {
+                max-width: 100%;
+                height: 80px;
+                margin-top: 0;
+            }
+
+            .promo-field {
+                width: 100%;
+                height: 80px;
+            }
+
+            .actionLocationButton {
+                cursor: pointer;
+                height: 25px;
+                font-size: 14px;
+                background-color: #ffe100;
+                color: #000000;
+                margin-top: auto;
+                width: 30vw;
+                padding-left: 0;
+                padding-right: 0;
+                border-left: solid 1px black;
+            }
+
+            #mainButtons{
+                margin: 0 auto;
+                width: 100vw;
+            }
+            .refresh-button {
+                cursor: pointer;
+                height: 25px;
+                font-size: 14px;
+                background-color: #ffe100;
+                color: #000000;
+                margin-top: auto;
+                width: 30vw;
+                padding-left: 0;
+                padding-right: 0;
+                border-left: solid 1px black;
+            }
+            .contact-button {
+                min-height: 100%;
+                text-align: center;
+                margin: 0;
+                width: 8px;
+                font-size: 8px;
+                padding: 0;
+                color: white;
+                cursor: pointer;
+            }
+
+            .botom-div {
+                margin-top: 0;
+                width: 100vw;
+                max-width: 600px;
+                color: white;
+                top: 0;
+            }
+
+            .account-view {
+                padding: 5px;
+                width: 100vw;
+                min-width: 330px;
+                color: white;
+                margin: 10px auto 0 auto;
+                border-radius: 0;
+            }
+
+            .account-view-content {
+                padding: 0;
+                min-width: 160px;
+                margin-left: 15px;
+            }
+
+            .buttons {
+                margin-top: 10px;
+                cursor: pointer;
+                font-size: 10px;
+                height: 25px;
+                width: 120px;
+            }
+
+            .main-dialog {
+                font-size: 0.7em;
+                padding: 0;
+                overflow-x: hidden;
+            }
+
+            .dialog-logo {
+                display: flex;
+                position: center;
+                width: 150px;
+                height: 100px;
+            }
+
+            .buttons-layout {
+                margin-left: auto;
+                margin-right: auto;
+                max-width: 330px;
+            }
+
+            .dialog-footer {
+                font-size: 0.2em;
+            }
+
+            .footer-button {
+                min-height: 100%;
+                width: 33%;
+                margin-left: 5px;
+                font-size: 0.7em;
+                border-radius: 0;
+                color: white;
+                background-color: royalblue;
+                cursor: pointer;
+            }
+
+            .accept-button {
+                min-height: 100%;
+                width: 50%;
+                font-size: 0.7em;
+                border-radius: 0;
+                color: white;
+                background-color: royalblue;
+                cursor: pointer;
+            }
+
+        }
+    </style>
+</custom-style>
+
+<dom-module id="location-field-style" theme-for="vaadin-text-field vaadin-text-area">
+    <template>
+        <style>
+            :host(.location-field) {
+                width: 60vw;
+                max-width: 800px;
+                float: left;
+            }
+
+            :host(.location-field) [part="label"] {
+                color: white;
+            }
+
+            :host(.location-field) [part="input-field"] {
+                background-color: white;
+                border-style: none;
+                width: 60vw;
+
+                max-width: 800px;
+                border-radius: 0;
+            }
+
+            /*/////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+            :host(.location-field-accountView) {
+                width: 450px;
+                color: white;
+            }
+
+            :host(.location-field-accountView)[part = "label"] {
+                width: 450px;
+                color: white;
+            }
+
+
+            :host(.location-field-accountView)[part="value"] {
+                color: white;
+            }
+
+            :host(.location-field-accountView)[part="input-field"] {
+                color: white;
+                /*width: 450px;*/
+            }
+
+            /*/////////////////////////////////////////////////////////////////////////////////////////////////*/
+            @media (max-width: 400px) {
+
+                :host(.location-field) {
+                }
+
+                :host(.location-field) [part="label"] {
+                    color: white;
+                    font-size: 12px;
+                }
+
+                :host(.location-field) [part="input-field"] {
+                    background-color: white;
+                    height: 30px;
+                    font-size: 14px;
+                    width: 100vw;
+                    margin: 0;
+                    border-radius: 0;
+                }
+            }
+
+            @media (min-width: 400px) and (max-width: 800px) {
+
+                :host(.location-field) [part="input-field"] {
+                    background-color: white;
+                    height: 30px;
+                    font-size: 14px;
+                    margin-right: 0;
+                    width: 100vw;
+                    border-radius: 0;
+                }
+            }
+
+        </style>
+    </template>
+</dom-module>
+<dom-module id="lumo-upload" theme-for="vaadin-upload">
+    <template>
+        <style>
+            [part="drop-label"] {
+                display: inline-block;
+                white-space: normal;
+                padding: 0 var(--lumo-space-s);
+                color: black;
+                font-family: 'League Spartan Bold', arial, serif;
+            }
+        </style>
+    </template>
+</dom-module>
+<custom-style>
+    <style>
+        @media (min-width: 401px) and (max-width: 800px) {
+            body, html { overflow-x:hidden; }
+
+            .top-div {
+                float: left;
+                margin-top: 5px;
+                padding: 0;
+                position: sticky;
+                min-height: 60px;
+                height: 130px;
+                background-color: black;
+                z-index: 2;
+            }
+
+            .main-logo {
+                margin: auto 30px;
+                width: 200px;
+                height: 100px;
+            }
+
+            .logo {
+                margin-left: 20px;
+                width: 150px;
+                min-width: 100px;
+                height: 50px;
+            }
+
+            .driver_info{
+                left: 30px;
+                width: 230px;
+                font-size: 15px;
+            }
+            .lrButtonsDiv {
+                margin: auto 0 auto auto;
+                float: right;
+                display: block;
+                width: 35vw;
+
+            }
+
+            .lr-buttons {
+                border-left: 5px solid black;
+                display:flex;
+                width: 150px;
+            }
+
+            .top-div-logged {
+               /* margin: auto;
+                cursor: pointer;
+                max-height: 150px;*/
+                width: 300px;
+                margin-top: 0;
+                padding-left: 0;
+                padding-right: 0;
+                margin-left: 0;
+                display:flex;
+            }
+            .radio-buttons{
+                width: 400px;
+                font-size: 2.7vw;
+                min-font-size: 15px;
+            }
+
+            .driver-localization{
+                width: 300px;
+                font-size: 3vw;
+            }
+            .logged-buttons {
+                margin-top: 0;
+                width: 35vw;
+                height: 25vw;
+                font-size: 15vw;
+                position: absolute;
+                right: 30px;
+                top: 0;
+                margin-left: 0;
+            }
+
+            .account-view {
+                margin: 0;
+                padding: 0;
+            }
+
+            .actionLocationButton {
+                cursor: pointer;
+                height: 25px;
+                font-size: 14px;
+                background-color: #ffe100;
+                color: #000000;
+                margin: auto;
+                width: 30vw;
+                padding-left: 0;
+                padding-right: 0;
+            }
+
+            #mainButtons{
+                margin: 0 auto;
+                width: 100vw;
+            }
+            .refresh-button {
+                cursor: pointer;
+                height: 25px;
+                font-size: 14px;
+                background-color: #ffe100;
+                color: #000000;
+                margin: auto;
+                width: 30vw;
+                padding-left: 0;
+                padding-right: 0;
+            }
+
+            .contact-button {
+                min-height: 100%;
+                text-align: center;
+                margin: 0;
+                font-size: 10px;
+                padding: 0;
+
+                color: white;
+                cursor: pointer;
+            }
+
+            .driver-div {
+                width: 100vw;
+                font-size: 1em;
+            }
+
+            .image-status-div {
+                width: 30vw;
+                margin: 0;
+            }
+
+            .driver-name {
+                width: 100vw;
+                font-size: 3vw;
+                word-wrap: break-spaces;
+            }
+
+            .main-driver-info {
+                width: 20vw;
+                margin-left: 0;
+                z-index: 1;
+            }
+
+            .account-view-content {
+                width: 20vw;
+                max-width: 300px;
+            }
+
+            .driver-description {
+                font-size: 2vw;
+                width: 250px;
+                min-width: 200px;
+
+            }
+
+            .servicesLayout {
+                display: none;
+                position: absolute;
+            }
+
+            .main-call-button, .main-call-button-busy, .main-call-button-disabled  {
+                height: 100px;
+                width: 100px;
+                font-size: 40px;
+
+                top: 50px;
+                margin: 0 0 0 auto;
+            }
+        }
+
+        @media (min-width: 801px) and (max-width: 1200px) {
+            body, html { overflow-x:hidden; }
+            .servicesLayout {
+                align-self: end;
+                height: 132px;
+                width: 100px;
+                z-index: 1;
+                top: 0;
+            }
+
+            .main-call-button, .main-call-button-busy, .main-call-button-disabled  {
+                height: 150px;
+                width: 150px;
+                font-size: 3em;
+                top: 50px;
+                margin: 0 0 0 auto;
+            }
+
+            .logo {
+                margin-right: auto;
+                align-self: flex-start;
+            }
+
+            .top-div-logged {
+                /* margin: auto;
+                 cursor: pointer;
+                 width: 300px;
+                 max-height: 150px;*/
+                margin-top: 0;
+            }
+
+            .logged-buttons {
+                margin: 0 auto;
+                right: 0;
+                align-self: flex-end;
+
+                float: right;
+            }
+
+
+            .account-view {
+                width: 100%;
+                padding: 0;
+                margin: 0 auto;
+            }
+
+            .account-view-content {
+                max-width: 1000px;
+                width: 50%;
+            }
+
+        }
+    </style>
+</custom-style>
+
+<custom-style>
+    <style>
+        @media (max-width: 320px) {
+
+            body, html { overflow-x:hidden; }
+
+            .top-div {
+                float: left;
+                margin-top: 3px;
+                padding: 0;
+                position: sticky;
+                min-height: 40px;
+                height: 25%;
+                width: 100%;
+                background-color: black;
+                z-index: 2;
+            }
+
+            .top-div-logged {
+
+                float: left;
+                min-height: 130px;
+                font-size: 11px;
+                margin: 0;
+                padding: 15px 0 0 0;
+                min-width: 130px;
+                /*max-width: 330px;*/
+                width: 100%;
+
+            }
+
+            .driver_info {
+                margin: 20px 0 0;
+            }
+
+            .logged-buttons {
+                margin-top: 0;
+                height: 130px;
+                margin-left: 40px;
+            }
+
+            .driver-div {
+                max-width: 100%;
+                color: white;
+                width: 100%;
+                height: 100px;
+                font-size: 9px;
+                word-wrap: break-spaces;
+                margin-bottom: 10px;
+
+                border-top: none;
+                border-bottom: none;
+            }
+
+
+            .main-call-button, .main-call-button-busy, .main-call-button-disabled {
+                color: white;
+                top: -30px;
+                left: -30px;
+                background-color: #62C637;
+                border-radius: 100%;
+                font-size: 15px;
+                float: left;
+                width: 50px;
+                height: 50px;
+                cursor: pointer;
+                margin-left: 0;
+                z-index: 0;
+            }
+
+            .main-call-button-busy {
+                background-color: #FFA500;
+            }
+
+            .main-call-button-disabled {
+                background-color: red;
+            }
+
+            .botom-div {
+                max-width: 320px;
+                width: 100vw;
+            }
+
+            .contact-button {
+                width: 10%;
+
+                color: white;
+                font-size: 6px;
+            }
+
+            .account-view-content {
+                padding: 0;
+                min-width: 100px;
+                width: 120px;
+                margin-left: 15px;
+            }
+
+            .show-hide-buttons {
+                font-size: 11px;
+                margin: auto 0;
+                color: #F5DA07;
+                width: 120px;
+                border-radius: 0;
+                border-bottom: 1px solid #F5DA07;
+            }
+
+            .account-view {
+                padding: 5px;
+                width: 100%;
+                min-width: 310px;
+                color: white;
+                margin: 10px auto 0 auto;
+                border-radius: 0;
+            }
+        }
+    </style>
+</custom-style>
